@@ -9,11 +9,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #E7C3AA;
 }
 
 /* Navbar-Stil */
 .navbar {
-    background-color: #333;
+    background-color: #714121;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -171,9 +172,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #714121;
 }
 footer a {
-    margin: 20px;
-    color: red;
+    margin: 10px;
+    color: white;
     text-decoration: underline;
 }

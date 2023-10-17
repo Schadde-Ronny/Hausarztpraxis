@@ -32,29 +32,4 @@ function disableDarkMode() {
     localStorage.setItem("darkModeEnabled", "false");
 }
 
-// Funktion zum automatischen Öffnen des Tors nach einer Verzögerung
-function openDoors() {
-    const leftDoor = document.querySelector('.left-door');
-    const rightDoor = document.querySelector('.right-door');
-    const overlay = document.querySelector('.overlay-container');
-  
-    leftDoor.style.transform = 'translateX(-100%)'; // Linkes Tor öffnet sich
-    rightDoor.style.transform = 'translateX(100%)'; // Rechtes Tor öffnet sich
-  
-    // Nach dem Öffnen der Tore das Overlay ausblenden
-    setTimeout(function () {
-      overlay.style.display = 'none';
-    }, 2000); // Ändere die Zeit in Millisekunden nach Bedarf
-  }
-  
-  // Nach einer Verzögerung die Tore öffnen
-  setTimeout(openDoors, 2000); // Ändere die Zeit in Millisekunden nach Bedarf
-  
 
-  
-  
-  
-  
-  
-  
-  

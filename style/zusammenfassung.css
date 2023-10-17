@@ -137,83 +137,67 @@ input:checked + .slider:before {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-/* Hauptinhalt-Stil */
-main {
-    padding: 20px;
-}
 .dark-mode {
     background-color: black;
     color: white;
 }
-.ueberschrift-container {
+.container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
-.bildcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.bildcontainer img {
-    width: 300px;
-    margin: 10px;
-
-}
-.untercontainer a {
-    position: absolute;
-    left: 180px;
-    bottom: -20px;
-    color: red;
-    text-decoration: underline;
-}
-.untercontainertwo a {
-    position: absolute;
-    left: 550px;
-    bottom: -20px;
-    color: red;
-    text-decoration: underline;
-}
-.untercontainerthree a {
-    position: absolute;
-    right: 190px;
-    bottom: -20px;
-    color: red;
-    text-decoration: underline;
-}
-.untercontainerfour a {
-    position: absolute;
-    left: 220px;
-    bottom: -270px;
-    color: red;
-    text-decoration: underline;
-}
-.untercontainerfive a {
-    position: absolute;
-    left: 530px;
-    bottom: -270px;
-    color: red;
-    text-decoration: underline;
-}
-.untercontainersix a {
-    position: absolute;
-    right: 170px;
-    bottom: -270px;
-    color: red;
-    text-decoration: underline;
-}
-h1, h2 ,h3 {
-    margin: 5px;
+h1 {
+    text-align: center;
+    margin: 20px;
     padding: 5px;
 }
-iframe {
-    position: relative;
-    left: 370px;
-    top: 20px;
+#untercontainereins {
+    width: 50%;
+}
+#untercontainerzwei {
+    width: 50%;
+}
 
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+a {
+    color: red;
+}
+p {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.containerzwei {
+    display: flex;
+    justify-content: center;
+}
+
+
+#untercontainerdrei {
+    width: 50%;
+}
+#untercontainervier {
+    width: 50%;
+}
+.containerdrei {
+    display: flex;
+    justify-content: center;
+}
+
+.untercontainerdrei {
+    width: 50%;
+}
+.containervier {
+    display: flex;
+    justify-content: center;
+}
+.untercontainervier {
+    width: 50%;
 }
 footer {
     display: flex;
@@ -226,42 +210,4 @@ footer a {
     color: white;
     text-decoration: underline;
 }
-/* Stil für das Overlay-Container */
-.overlay-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Hintergrundfarbe und Transparenz anpassen */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1; /* Über die anderen Inhalte legen */
-    pointer-events: none; /* Deaktiviert Klicks auf das Overlay, sodass die Webseite darunter interaktiv bleibt */
-  }
-  
-  /* Stil für die linken und rechten Tore */
-  .left-door, .right-door {
-    width: 50%;
-    height: 100%;
-    background-image: url('/Bilder/a-heart-2338154_1920.jpg');
-    background-size: cover;
-    transition: transform 2s ease-in-out; /* Animationsdauer und -effekt anpassen */
-  }
-  
-  .left-door {
-    transform: translateX(0); /* Anfangsposition (geschlossen) */
-  }
-  
-  .right-door {
-    transform: translateX(0); /* Anfangsposition (geschlossen) */
-  }
-
-
-
-
-  
-  
-  
 

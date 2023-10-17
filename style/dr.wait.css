@@ -99,6 +99,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #E7C3AA;
 }
 
 /* Navbar-Stil */
@@ -339,9 +340,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #714121;
 }
 footer a {
     margin: 10px;
-    color: red;
+    color: white;
     text-decoration: underline;
 }

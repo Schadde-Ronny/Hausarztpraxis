@@ -1,0 +1,51 @@
+/* Media Query für kleine Bildschirme (z. B., Smartphones) */
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle:checked + .menu-icon {
+    display: block;
+  }
+
+  .mobile-dropdown-content {
+    display: none;
+    flex-direction: column;
+    background-color: #333; /* Hintergrundfarbe des Menüs für kleine Bildschirme */
+    position: absolute;
+    top: 70px; /* Ändern Sie dies entsprechend Ihrem Header */
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .menu-toggle:checked + .menu-icon + .mobile-dropdown-content {
+    display: flex;
+  }
+
+  .mobile-dropdown-content li {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+/* Stil für das Burger-Icon */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+  
+  
+  
+  
+  
